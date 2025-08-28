@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Governance — OPERATION CHRISTMAS TREE, INC.</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+  <link rel="icon" href="images/logo.png">
+  <meta name="description" content="Governance and legal statements — OPERATION CHRISTMAS TREE, INC.. EIN 85-4273692.">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home"><img src="images/logo.png" alt="OPERATION CHRISTMAS TREE, INC. logo"></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="links" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="governance.html">Governance</a>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="section container split">
+  <div>
+    <h1>Governance &amp; Compliance</h1>
+    <p><strong>Jurisdiction:</strong> Delaware. <strong>EIN:</strong> 85-4273692.</p>
+    <p><strong>Registered/Corporate Agent:</strong> Johnston Thomas, Attorneys at Law, PC</p>
+    <p><strong>Principal Executive Office:</strong><br>282 Bouquet Circle, Windsor, CA 95492<br>Mail: P.O. Box 1395, Windsor, CA 95492</p>
+    <p class="small">We operate exclusively for charitable purposes and do not engage in political campaign activity. Upon dissolution, any remaining assets will be distributed to a charitable organization with similar purposes.</p>
+  </div>
+  <figure class="figure"><img src="images/programs.jpg" alt="Governing documents"></figure>
+</main>
+<footer class="footer">
+  <div class="container grid">
+    <div>
+      <img src="images/logo.png" alt="" style="width:160px;height:auto;margin-bottom:.5rem;">
+      <div class="small">© <span id="year"></span> OPERATION CHRISTMAS TREE, INC.</div>
+      <div class="small">A Delaware nonprofit/exempt corporation — EIN 85-4273692</div>
+    </div>
+    <div>
+      <div class="small"><strong>Mission:</strong><br>Bring hope during the holidays by providing Christmas trees, gifts, and essentials to families in need.</div>
+    </div>
+    <div>
+      <div class="small">
+        <strong>Address:</strong><br>282 Bouquet Circle, Windsor, CA 95492<br>Mail: P.O. Box 1395, Windsor, CA 95492<br>
+        <strong>Email:</strong> <a href="mailto:contact@operationchristmastree.online">contact@operationchristmastree.online</a><br>
+        <strong>Phone:</strong> <a href="tel:+19126104832">+1 912 610 4832</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  const b=document.querySelector('.menu-toggle'), l=document.querySelector('.links');
+  if(b&&l){b.addEventListener('click',()=>{const o=getComputedStyle(l).display==='flex';l.style.display=o?'none':'flex';b.setAttribute('aria-expanded',o?'false':'true');});}
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
